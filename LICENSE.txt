@@ -1,0 +1,8 @@
+ConspiraCat
+Copyright (c) 2026 A.A. All rights reserved.
+
+This software, its design, texts and the Tinfoil Cat character and artwork are proprietary.
+No licence is granted to copy, modify, publish, distribute, sublicense or sell any part of it,
+or to create derivative works, without prior written permission from the copyright holder.
+
+Third-party component: jsQR (vendor/jsQR.js), Apache License 2.0, see vendor/LICENSE-jsQR.txt.

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' blob:; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob: mediastream:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="theme-color" content="#0B0614">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ConspiraCat">
+<meta name="copyright" content="© 2026 A.A. All rights reserved.">
+<title>ConspiraCat</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="look-cat">
+<!-- ConspiraCat © 2026 A.A. All rights reserved. Unauthorised copying, modification or redistribution of this software, its design or artwork is prohibited. -->
+
+<div id="gate" class="gate" hidden>
+  <div class="gate-card">
+    <img src="icons/icon-192.png" alt="" class="gate-icon">
+    <h1>ConspiraCat</h1>
+    <p>This is a private app. Enter your access code to unlock it.</p>
+    <form id="gateForm" autocomplete="off">
+      <label for="gateCode" class="sr">Access code</label>
+      <input id="gateCode" type="text" inputmode="text" autocapitalize="characters" spellcheck="false" placeholder="ACCESS CODE" required>
+      <button type="submit" class="btn btn-primary" id="gateBtn">Unlock</button>
+    </form>
+    <p id="gateMsg" class="gate-msg" role="status"></p>
+  </div>
+</div>
+
+<div id="boot" class="boot"><div class="spinner" aria-label="Loading"></div></div>
+
+<div id="app" class="app" hidden></div>
+
+<script src="loader.js"></script>
+</body>
+</html>
